@@ -1,14 +1,14 @@
-import streamlit as st
-import pandas as pd
-import base64, random
-import time,datetime
-import pymysql
-import os
-import socket
-import platform
-import geocoder
-import secrets
-import io,random
+import streamlit as st       # to create all frontend page
+import pandas as pd         
+import base64, random           
+import time,datetime         # to fetch date and time
+import pymysql               # to connect with database which is created in xampp
+import os       
+import socket                # socket API are used to send messages across a network
+import platform              # to retrieve info about the device used by user
+import geocoder              # To geolocate a single address, you can use Geopy python library
+import secrets               # is used for generating cryptographically strong random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets.
+import io,random             
 import plotly.express as px # to create visualisations at the admin session
 import plotly.graph_objects as go
 from geopy.geocoders import Nominatim
@@ -23,17 +23,16 @@ from streamlit_tags import st_tags
 from PIL import Image
 # pre stored data for prediction purposes
 from Courses import ds_course,web_course,android_course,ios_course,uiux_course,resume_videos,interview_videos
-import nltk
+import nltk             # natural language toolkit library
 nltk.download('stopwords')
 
-
-
+# To initialize the streamlite web page
 st.set_page_config(
    page_title="Smart Resume Analyzer",
    page_icon='./Logo/recommend.png',
 )
 
-
+#Admin section part for summary download
 
 # Generates a link allowing the data in a given panda dataframe to be downloaded in csv format 
 def get_csv_download_link(df,filename,text):
@@ -50,9 +49,7 @@ def pdf_reader(file):
     converter = TextConverter(resource_manager, fake_file_handle, laparams=LAParams())
     page_interpreter = PDFPageInterpreter(resource_manager, converter)
     with open(file, 'rb') as fh:
-        for page in PDFPage.get_pages(fh,
-                                      caching=True,
-                                      check_extractable=True):
+        for page in PDFPage.get_pages(fh,caching=True,check_extractable=True):
             page_interpreter.process_page(page)
             print(page)
         text = fake_file_handle.getvalue()
@@ -113,7 +110,6 @@ def insertf_data(feed_name,feed_email,feed_score,comments,Timestamp):
 
 
 def run():
-    
     # (Logo, Heading, Sidebar etc)
     img = Image.open('./Logo/RESUM.png')
     st.image(img)
@@ -768,4 +764,3 @@ def run():
 
 # Calling the main (run()) function to make the whole process run
 run()
-
