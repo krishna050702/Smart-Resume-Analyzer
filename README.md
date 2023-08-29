@@ -3,19 +3,7 @@
 <div align="center">
   <h1>🌴 AI RESUME ANALYZER 🌴</h1>
   <p>A Tool for Resume Analysis, Predictions and Recommendations</p>
-  <!-- Badges -->
-<!--   <p>
-    <img src="https://img.shields.io/github/last-commit/deepakpadhi986/AI-Resume-Analyzer" alt="last update" />
-    <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="open source" />
-    <img src="https://img.shields.io/github/languages/top/deepakpadhi986/AI-Resume-Analyzer?color=red" alt="language" />
-    <img src="https://img.shields.io/github/languages/code-size/deepakpadhi986/AI-Resume-Analyzer?color=informational" alt="code size" />
-    <img src="https://visitor-badge.glitch.me/badge?page_id=deepakpadhi986.AI-Resume-Analyzer&left_color=grey&right_color=blueviolet" alt="visitors count" />
-    <a href="https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/deepakpadhi986/AI-Resume-Analyzer.svg?color=yellow" alt="license" />
-    </a>
-  </p> -->
-  
-  <!--links-->
+
   <h4>
     <a href="#preview-">View Demo</a>
     <span> · </span>
@@ -159,56 +147,5 @@ If you want the full report of project
 <a href="mailto:krishnamundada011@gmail.com?subject=I%20Want%20The%20Project%20Report%20of%20AI-RESUME-ANALYZER%20(2022%20-%2023)&body=Here%20Are%20My%20Details%20%F0%9F%98%89%0D%0A%0D%0AOrganization%2FCollege%20Name%3A%20%0D%0A%0D%0AFull%20Name%3A%20%0D%0A%0D%0AGitHub%20Profile%20%3A%20%0D%0A%0D%0AFrom%20where%20did%20you%20get%20to%20know%20about%20this%20project%3A%0D%0A%0D%0APurpose%20of%20asking%20project%20report%20(describe)%3A%0D%0A%0D%0A%0D%0AIf%20the%20above%20information%20satisfy%20your%20identity%20you%20will%20get%20the%20report%20to%20your%20email.">Email Me</a> ``it's FREE``
 
 
-**Skill Recommendation**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/user/3-recom.png?raw=true)
-
-**Course Recommendation**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/user/4-recom.png?raw=true)
-
-**Tips and Overall Score**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/user/5-tipsscore.png?raw=true)
-
-**Video Recommendation**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/user/6-recom.png?raw=true)
-
-### Feedback
-
-**Feedback Form**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/feedback/1-form.png?raw=true)
-
-**Overall Rating Analysis and Comment History**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/feedback/2-analytics.png?raw=true)
-
-### Admin
-
-**Login**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/admin/1-main-screen.png?raw=true)
-
-**User Count and it's data**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/admin/2-user-data.png?raw=true)
-
-**Exported csv file**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/admin/3-user-datacsv.png?raw=true)
-
-**Feedback Data**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/admin/4-feed-data.png?raw=true)
-
-**Pie Chart Analytical Representation of clusters**
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/admin/5-pieexp.png?raw=true)
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/admin/6-piescre.jpg?raw=true)
-
-![Screenshot](https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/main/screenshots/admin/7-pielocation.png?raw=true)
 
 ### Built with 🤍 AI RESUME ANALYZER by <a href="https://www.linkedin.com/in/krishna-mundada/">Krishna Mundada</a>
